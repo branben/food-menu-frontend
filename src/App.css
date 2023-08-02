@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+img{
+  width: 100px;
+}
+
+.FoodItemList{
+  display: grid;
+grid-gap: 15px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: none;
+}
+
+.food-card{
+  border: solid 1px;
+  background-color: lightgray;
+}
